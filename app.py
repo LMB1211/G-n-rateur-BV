@@ -22,18 +22,18 @@ objets = [
 ]
 
 usages = [
-    # 50 Usages ouverts / épiques
-    "Cacher un secret", "Surveiller les étoiles", "Célébrer un culte", "S'isoler du monde", "Produire de l'énergie", "Voyager sans but", "Fuir une menace", "Étudier l'inconnu", "Guérir une maladie", "Conserver la mémoire",
-    "Rendre la justice", "S'amuser / Divertir", "Défier la gravité", "Méditer", "Négocier la paix", "Attendre la fin du monde", "Élever des créatures", "Cultiver des rêves", "Fabriquer des illusions", "Punir un crime",
-    "Accueillir des exilés", "Transmettre un savoir", "Se perdre", "Dormir pour l'éternité", "Écouter le silence", "Survivre à la nuit", "Explorer les abysses", "Cartographier le vide", "Contempler l'horizon", "Réparer une machine",
-    "Chercher l'inspiration", "Organiser un tournoi", "Communiquer avec l'au-delà", "Prier", "Festoyer", "Se cacher de la lumière", "Dompter les éléments", "Observer sans être vu", "Traverser une frontière", "Défendre un trésor",
-    "Recycler le passé", "Capturer le vent", "Attirer l'attention", "Créer de la beauté", "Collecter des nuages", "Résoudre une énigme", "Tromper l'ennemi", "Chercher l'oubli", "Rencontrer des étrangers", "Attendre un signe",
-    # 50 Usages concrets / quotidiens
-    "Vendre du pain et des viennoiseries", "Attendre le bus sous la pluie", "Trier des déchets recyclables", "Apprendre à nager", "Réparer des vélos", "Stocker des archives administratives", "Cultiver des tomates en hiver", "Héberger des sans-abris", "Laver son linge", "Passer le permis de conduire",
-    "Organiser un mariage", "Voter pour les élections locales", "Surveiller la baignade", "Payer l'autoroute", "Prendre un café le matin", "Garer sa voiture", "Regarder un film", "Promener son chien", "Faire de la musculation", "Accoucher",
-    "Traiter les eaux usées", "Faire le plein d'essence", "Vendre des fruits et légumes", "Lire un livre au calme", "Jouer à la pétanque", "Réparer une fuite d'eau", "Attendre son tour chez le médecin", "Déposer un colis", "Acheter le journal", "Extraire du gravier",
-    "Dormir une nuit en transit", "Prendre les transports pour aller au travail", "Faire grève", "Faire du skateboard", "Visiter une exposition", "Déjeuner sur le pouce", "Pêcher à la ligne", "Enregistrer un podcast", "Faire ses devoirs", "Se réunir en syndic de copropriété",
-    "Apprendre la musique", "Se faire couper les cheveux", "Coudre des vêtements", "Distribuer le courrier", "Héberger des serveurs informatiques", "Observer les oiseaux migrateurs", "Saisir des données sur un ordinateur", "Changer une roue de voiture", "Fabriquer de la bière artisanale", "Regarder passer les trains"
+    # 50 Usages ouverts / épiques (axés sur des quêtes ou des actions fortes)
+    "Cacher un lourd secret", "Surveiller le ciel", "Célébrer un rituel", "S'isoler du reste du monde", "Produire et stocker de l'énergie", "Préparer un long voyage", "Fuir une menace imminente", "Étudier l'inconnu", "Guérir une maladie incurable", "Conserver la mémoire d'un peuple",
+    "Rendre la justice", "Divertir une foule", "Défier la gravité", "Méditer en silence", "Négocier un traité de paix", "Attendre la fin du monde", "Élever des créatures étranges", "Cultiver des ressources rares", "Fabriquer des illusions", "Punir une trahison",
+    "Accueillir des exilés", "Transmettre un savoir ancestral", "Se cacher de la lumière", "Dormir pour l'éternité (stase)", "Écouter le silence", "Survivre à une nuit sans fin", "Explorer les profondeurs", "Cartographier le vide", "Contempler l'horizon", "Réparer une machine complexe",
+    "Chercher l'inspiration ultime", "Organiser un tournoi périlleux", "Communiquer avec l'au-delà", "Invoquer des forces invisibles", "Festoyer jusqu'à l'aube", "Observer le temps qui passe", "Dompter les éléments", "Observer sans être vu", "Protéger un passage", "Défendre un trésor inestimable",
+    "Recycler les vestiges du passé", "Capturer le vent", "Attirer l'attention de loin", "Contenir une force destructrice", "Collecter l'eau des nuages", "Résoudre une énigme millénaire", "Tromper les sens", "Chercher l'oubli", "Rencontrer des étrangers", "Attendre un signe",
+    # 50 Usages concrets / quotidiens (axés sur des programmes architecturaux humains/techniques)
+    "S'abriter des intempéries", "Partager un repas en groupe", "Trier et recycler des matériaux", "Apprendre une nouvelle compétence", "Se reposer après un effort physique", "Stocker des provisions pour l'hiver", "Cultiver de la nourriture", "Héberger des personnes de passage", "Nettoyer et purifier", "Transmettre une information urgente",
+    "Rassembler une communauté", "Prendre une décision collective", "Surveiller les alentours", "Payer une dette ou un droit de passage", "Commencer sa journée de travail", "Garer et protéger un véhicule", "Assister à une représentation", "Prendre soin d'un animal", "S'entraîner physiquement", "Donner la vie",
+    "Filtrer et purifier l'eau", "Se ravitailler en carburant ou énergie", "Échanger des biens et des marchandises", "Lire et se concentrer", "Jouer à un jeu de plein air", "Réparer une avarie technique", "Patienter avant un rendez-vous", "Déposer ou récupérer un objet", "S'informer sur les actualités", "Extraire de la matière première",
+    "Faire une sieste de courte durée", "Effectuer une transition entre deux modes de transport", "Manifester son mécontentement", "Pratiquer une activité d'équilibre", "Exposer une création au public", "Manger rapidement sur le pouce", "Capturer de la nourriture sauvage", "Enregistrer des sons ou des voix", "Travailler sur un projet complexe", "Débattre d'un problème commun",
+    "Pratiquer un instrument de musique", "Prendre soin de son corps", "Confectionner des vêtements ou des protections", "Répartir et distribuer des colis", "Héberger des systèmes informatiques", "Observer la faune locale", "Analyser des données", "Remplacer une pièce défectueuse", "Fabriquer un produit artisanal", "Observer le flux de circulation (personnes ou véhicules)"
 ]
 
 personnages = [
@@ -110,7 +110,7 @@ if st.button("🚀 Générer un nouveau défi !", use_container_width=True):
         st.info(f"**🌍 Lieu (Site) :**\n\n{choix_geo}")
         
     with col2:
-        st.info(f"**🛠️ Usage :**\n\n{choix_usage}")
+        st.info(f"**🛠️ Usage (Programme) :**\n\n{choix_usage}")
         st.info(f"**⏳ Époque :**\n\n{choix_chrono}")
 
     with col3:
