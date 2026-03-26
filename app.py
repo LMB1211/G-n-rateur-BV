@@ -93,20 +93,21 @@ st.divider()
 if st.button("🚀 Générer un nouveau défi !", use_container_width=True):
     
     # Sélection aléatoire
-    choix_objet = random.choice(objets)
-    choix_usage = random.choice(usages)
     choix_perso = random.choice(personnages)
-    choix_chrono = random.choice(contextes_chrono)
+    choix_usage = random.choice(usages)
+    choix_objet = random.choice(objets)
     choix_geo = random.choice(contextes_geo)
+    choix_chrono = random.choice(contextes_chrono)
     choix_delai = random.choice(delais)
     
     st.success(f"🎉 Voici votre nouveau défi créatif ! Vous avez **{choix_delai}** pour le réaliser.")
     
-    # Affichage visuel sur 3 colonnes pour une meilleure lisibilité
+    # Affichage visuel sur 3 colonnes. 
+    # La lecture se fait de gauche à droite sur la première ligne, puis sur la deuxième.
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.info(f"**📦 Objet :**\n\n{choix_objet}")
+        st.info(f"**👤 Personnage :**\n\n{choix_perso}")
         st.info(f"**🌍 Lieu (Site) :**\n\n{choix_geo}")
         
     with col2:
@@ -114,7 +115,7 @@ if st.button("🚀 Générer un nouveau défi !", use_container_width=True):
         st.info(f"**⏳ Époque :**\n\n{choix_chrono}")
 
     with col3:
-        st.info(f"**👤 Personnage :**\n\n{choix_perso}")
+        st.info(f"**📦 Objet :**\n\n{choix_objet}")
         st.error(f"**⏱️ Deadline :**\n\n{choix_delai}")
 
 st.divider()
